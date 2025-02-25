@@ -12,11 +12,10 @@ public abstract class Expressao{
     public static Expressao operator -(Expressao a, Expressao b) => new Subtracao(a, b).Simplificar();
     public static Expressao operator *(Expressao a, Expressao b) => new Multiplicacao(a, b).Simplificar();
     public static Expressao operator /(Expressao a, Expressao b) => new Divisao(a, b).Simplificar();
-    public static Simbolo operator ~(Expressao a) => new Simbolo(a.ToString()); // converte em símbolo
-    public static Complexo operator !(Expressao a) => (Complexo) a; // converte em símbolo
-    public static Expressao operator +(Expressao a,int b) => new Soma(a,new Numero(b)); // converte em complexo
+    public static Simbolo operator ~(Expressao a) => new Simbolo(a.ToString()); 
+    public static Complexo operator !(Expressao a) => (Complexo) a;
     public static Expressao operator <<(Expressao a,Simbolo x) => a.Derivar(x);
-    public static Expressao operator <<(Expressao a,Expressao x) => a<<~x;// >> << +-*/ ~
+    public static Expressao operator <<(Expressao a,Expressao x) => a<<~x;
 
     public static implicit operator Expressao(int v) => new Numero(v);
     public static implicit operator Expressao(string s) => new Simbolo(s);
@@ -66,7 +65,6 @@ public class Complexo : Expressao{
         if (real is Numero) if ((real as Numero)==0) return $"{imaginaria.ToString()}i";
         if (imaginaria is Numero){
             if ((imaginaria as Numero)==0) return $"{real.ToString()}";
-            if ((imaginaria as Numero)==0) return $"{real.ToString()}";
             if ((imaginaria as Numero)<0) return $"({real.ToString()} - {(imaginaria as Numero).Oposto().ToString()}i)";
         }
         return $"({real.Simplificar().ToString()} + {imaginaria.Simplificar().ToString()}i)";
@@ -86,10 +84,6 @@ public class Complexo : Expressao{
     public static implicit operator Complexo((int a,Expressao b) t) => new Complexo(new Numero(t.a),t.b);
 
     // operations
-    // public static Complexo operator +(Complexo a, Complexo b) => !new Soma(a,b).Simplificar();
-    // public static Complexo operator -(Complexo a, Complexo b) => !new Subtracao(a,b).Simplificar();
-    // public static Complexo operator *(Complexo a, Complexo b) => !new Multiplicacao(a,b).Simplificar();
-    // public static Complexo operator /(Complexo a, Complexo b) => !new Divisao(a,b).Simplificar();
 
     public static Complexo operator +(Complexo a, Numero b) => !new Soma(a,new Complexo(b,0)).Simplificar();
     public static Complexo operator -(Complexo a, Numero b) => !new Subtracao(a, new Complexo(b,0)).Simplificar();
@@ -110,16 +104,6 @@ public class Complexo : Expressao{
     public static Complexo operator -(Simbolo a, Complexo b) => !new Subtracao(new Complexo(a,0),b).Simplificar();
     public static Complexo operator *(Simbolo a, Complexo b) => !new Multiplicacao(new Complexo(a,0),b).Simplificar();
     public static Complexo operator /(Simbolo a, Complexo b) => !new Divisao(new Complexo(a,0),b).Simplificar();
-
-    // public static Complexo operator +(Complexo a,Expressao b) => a+!b;
-    // public static Complexo operator -(Complexo a,Expressao b) =>  a-!b;
-    // public static Complexo operator *(Complexo a,Expressao b) => a*!b;
-    // public static Complexo operator /(Complexo a,Expressao b) => a/!b;
-
-    // public static Complexo operator +(Expressao a, Complexo b) => !a+b;
-    // public static Complexo operator -(Expressao a, Complexo b) => !a-b;
-    // public static Complexo operator *(Expressao a, Complexo b) => !a*b;
-    // public static Complexo operator /(Expressao a, Complexo b) => !a/b;
 }
 
 public class Simbolo : Expressao{
@@ -141,7 +125,6 @@ public class Soma : Operacao{
         this.b = y;
     }
     public override string ToString(){
-        
         if (b is Numero) if ((b as Numero).valor<0) return $"({a.ToString()} - {(b as Numero).Oposto().ToString()})"; else return $"({a.ToString()} + {b.ToString()})";
         return $"({a.ToString()} + {b.ToString()})";
     }
@@ -171,7 +154,6 @@ public class Soma : Operacao{
         }
         return this;
     }
-
     private Expressao SimplificarC(){
         Expressao real,imaginaria;
         Complexo fA=(Complexo) a,fB=(Complexo) b;
@@ -182,8 +164,7 @@ public class Soma : Operacao{
 }
 
 public class Subtracao : Operacao{
-    public Subtracao(Expressao x, Expressao y)
-    {
+    public Subtracao(Expressao x, Expressao y){
         this.a = x;
         this.b = y;
     }
@@ -191,7 +172,6 @@ public class Subtracao : Operacao{
         if (b is Numero) if ((b as Numero).valor<0) return $"({a.ToString()} + {(b as Numero).Oposto().ToString()})"; else return $"({a.ToString()} - {b.ToString()})";
         return $"({a.ToString()} - {b.ToString()})";
     }
-
     public override Expressao Derivar(Simbolo x) => 
         new Subtracao(a.Derivar(x), b.Derivar(x));
     public override Expressao Simplificar(){
@@ -218,7 +198,6 @@ public class Subtracao : Operacao{
         }
         return this;
     }
-
     private Complexo SimplificarC(){
         Expressao real,imaginaria;
         Complexo fA=(Complexo) a,fB=(Complexo) b;
@@ -234,8 +213,8 @@ public class Multiplicacao : Operacao{
         this.b = y;
     }
     public override string ToString(){
-        if (a is Numero && b is Simbolo) return $"{a.ToString()}{b.ToString()}";
-        if (b is Numero && a is Simbolo) return $"{b.ToString()}{a.ToString()}";
+        if (b is Simbolo) return $"{a.ToString()}{b.ToString()}";
+        if (a is Simbolo) return $"{b.ToString()}{a.ToString()}";
         return $"({a.ToString()} * {b.ToString()})";
     }
 
@@ -243,18 +222,13 @@ public class Multiplicacao : Operacao{
         new Soma(
             new Multiplicacao(a.Derivar(x), b).Simplificar(),
             new Multiplicacao(a, b.Derivar(x)).Simplificar()).Simplificar();
-    public override Expressao Simplificar(){
-        if (a is Complexo && b is Complexo) return SimplificarC();
-        else return SimplificarR();
-    }
+    public override Expressao Simplificar(){ if (a is Complexo && b is Complexo) return SimplificarC(); else return SimplificarR(); }
     public Expressao SimplificarR(){
         if (a is Numero){
-            if ((a as Numero)==0) return new Numero(0);
-            if (a as Numero == 1) return b;
+            if ((a as Numero)==0) return new Numero(0); if (a as Numero == 1) return b;
         }
         if (b is Numero){
-            if ((b as Numero)==0) return new Numero(0);
-            if (b as Numero == 1) return a;
+            if ((b as Numero)==0) return new Numero(0); if (b as Numero == 1) return a;
         }
         if (a is Numero && b is Numero){
             return new Numero((a as Numero).valor * (b as Numero).valor);
@@ -268,9 +242,7 @@ public class Multiplicacao : Operacao{
         }
         return this;
     }
-
     private Expressao SimplificarC(){
-        if (!(a is Complexo) || !(b is Complexo)) return new Multiplicacao(new Complexo(a,0),new Complexo(b,0)).SimplificarR();
         Expressao real,imaginaria;
         Complexo fA=(Complexo) a, fB=(Complexo) b;
         real = new Subtracao(new Multiplicacao(fA.real,fB.real).Simplificar(),new Multiplicacao(fA.imaginaria,fB.imaginaria).Simplificar()).Simplificar();
@@ -311,7 +283,6 @@ public class Divisao : Operacao{
         }
        return this;
     }
-
     private Complexo SimplificarC(){
         Expressao real,imaginaria,num_p1,num_p2,dem;
         Complexo fA=(Complexo) a, fB=(Complexo) b;

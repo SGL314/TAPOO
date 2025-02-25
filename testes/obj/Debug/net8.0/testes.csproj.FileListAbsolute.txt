@@ -1,0 +1,15 @@
+C:\Users\samug\OneDrive\Documentos\Scripts\ScriptsCs\TAPOO\testes\bin\Debug\net8.0\testes.exe
+C:\Users\samug\OneDrive\Documentos\Scripts\ScriptsCs\TAPOO\testes\bin\Debug\net8.0\testes.deps.json
+C:\Users\samug\OneDrive\Documentos\Scripts\ScriptsCs\TAPOO\testes\bin\Debug\net8.0\testes.runtimeconfig.json
+C:\Users\samug\OneDrive\Documentos\Scripts\ScriptsCs\TAPOO\testes\bin\Debug\net8.0\testes.dll
+C:\Users\samug\OneDrive\Documentos\Scripts\ScriptsCs\TAPOO\testes\bin\Debug\net8.0\testes.pdb
+C:\Users\samug\OneDrive\Documentos\Scripts\ScriptsCs\TAPOO\testes\obj\Debug\net8.0\testes.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\samug\OneDrive\Documentos\Scripts\ScriptsCs\TAPOO\testes\obj\Debug\net8.0\testes.AssemblyInfoInputs.cache
+C:\Users\samug\OneDrive\Documentos\Scripts\ScriptsCs\TAPOO\testes\obj\Debug\net8.0\testes.AssemblyInfo.cs
+C:\Users\samug\OneDrive\Documentos\Scripts\ScriptsCs\TAPOO\testes\obj\Debug\net8.0\testes.csproj.CoreCompileInputs.cache
+C:\Users\samug\OneDrive\Documentos\Scripts\ScriptsCs\TAPOO\testes\obj\Debug\net8.0\testes.sourcelink.json
+C:\Users\samug\OneDrive\Documentos\Scripts\ScriptsCs\TAPOO\testes\obj\Debug\net8.0\testes.dll
+C:\Users\samug\OneDrive\Documentos\Scripts\ScriptsCs\TAPOO\testes\obj\Debug\net8.0\refint\testes.dll
+C:\Users\samug\OneDrive\Documentos\Scripts\ScriptsCs\TAPOO\testes\obj\Debug\net8.0\testes.pdb
+C:\Users\samug\OneDrive\Documentos\Scripts\ScriptsCs\TAPOO\testes\obj\Debug\net8.0\testes.genruntimeconfig.cache
+C:\Users\samug\OneDrive\Documentos\Scripts\ScriptsCs\TAPOO\testes\obj\Debug\net8.0\ref\testes.dll
