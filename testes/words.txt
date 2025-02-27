@@ -1,146 +1,147 @@
-"accountant": "contador"
-"accomplish": "conclusão"
-"aloud": "em voz alta"
-"annoy": "irritar"
-"argue": "discutir"
-"awake": "acordado"
-"attic": "sótão"
-"beet": "beterraba"
-"bite": "morder"
-"boot": "bota"
-"behave": "comportar-se"
-"behaviour": "comportamento"
-"cabinet":"gabinete"
-"car dealer":"concessionário de automóveis"
-"car delership""concessionária de carros"
-"carpet":"carpete"
-"chalk":"giz"
-"charge a gun":"carregar uma arma"
-"charge someone with":"cobrar de alguém"
-"chart":"gráfico"
-"cherry":"cereja"
-"claim":"reclamar"
-"complain":"criticar"
-"complaint":"crítica"
-"control freak":"controlador"
-"coy":"tímida"
-"crawl":"arrastar"
-"crowd":"multidão"
-"crowded":"superlotado"
-"costume":"fantasia"
-"deaf": "surdo"
-"deal":"negócio"
-"develop":"desenvolver"
-"engaged":"comprometido"
-"envy":"inveja"
-"exchange":"intercâmbio"
-"exchange student":"estudante de intercâmbio"
-"eyebrow":"sobrancelha"
-"fault": "faltar"
-"faultless": "impecável"
-"faulty": "defeituoso"
-"flick": "filme"
-"fierce": "feroz"
-"flat tyre": "pneu furado"
-"floorboard":"tapete de chão"
-"floor tiles":"azulejos de chão"
-"gifted": "dotado"
-"glad": "alegre"
-"gluttony": "glutonaria"
-"goals": "metas"
-"goods": "bens"
-"handcuffs":"algemas"
-"hangover":"ressaca"
-"hitchhike":"pegar carona"
-"housemaid":"empregada doméstica"
-"idle":"parado"
-"ink":"tinta"
-"ice lolly":"picolé"
-"invent":"inventar"
-"itch":"coceira"
-"I may":"eu posso"
-"I might":"eu poderia"
-"jealous":"ciúmes"
-"jail":"cadeia"
-"kick":"chute"
-"let off":"soltar"
-"long term":"longo prazo"
-"loss":"perda"
-"lotion":"loção"
-"lust":"luxúria"
-"loud":"alto"
-"mat":"tapete de boas-vindas"
-"mint":"hortelã"
-"misbehave":"comportar-se mal"
-"mood":"humor"
-"moody":"temperamental"
-"nerves":"nervosismo"
-"noticeboard":"quadro de avisos"
-"oblige":"obrigar"
-"overeat":"comer de mais"
-"pick":"escolha"
-"picky":"exigente"
-"plug":"plugue"
-"popsicle":"picolé"
-"print":"imprimir"
-"quotation mark":"aspas"
-"quote": "citação"
-"reckon":"considerar"
-"refund":"reembolso"
-"regret":"arrependimento"
-"rerun":"repetir"
-"rob":"roubar"
-"roof":"áspero"
-"rub":"esfregar"
-"rug":"tapete"
-"sauce":"molho"
-"savvy":"experiente"
-"Scandinavia":"Escandinávia"
-"scare":"susto"
-"sacerecrow":"espantalho"
-"scary":"assustador"
-"scrape":"arranhar"
-"scratch":"raspar"
-"set goals":"definir metas"
-"shares":"coisas compartilhadas"
-"shipping":"frete"
-"shove":"empurrão"
-"sin":"pecado"
-"slip":"escorregar"
-"sloth":"preguiça"
-"smooth":"suave"
-"socket":"tomada"
-"souvenir":"lembrancinha"
-"spare tyre":"pneu sobressalente"
-"speechless":"sem palavras"
-"steal":"roubar"
-"stockbroker":"corretor de bolsa"
-"steering wheel": "volante"
-"strengthen":"fortalecer"
-"strain":"variedade"
-"sunrise":"nascer do sol"
-"sunset":"pôr do sol"
-"sure":"claro"
-"sweep":"varrer"
-"sweets":"doces"
-"thief":"ladrão"
-"tiles":"azulejos"
-"tend to":"tendem a"
-"take a ride":"fazer um passeio"
-"towards":"em direção a"
-"trunk":"porta-malas"
-"tyre":"pneu"
-"unless":"a menos que"
-"unsure":"inseguro"
-"vacant":"vaga"
-"vent":"desabafar"
-"victim":"vítima"
-"vanity":"vaidade"
-"weed":"erva"
-"weeding":"capinar"
-"weigh":"pesar"
-"wisdom":"sabedoria"
-"wise":"sábio"
-"witch":"bruxa"
-"wrath":"fúria"
-"wreck":"naufrágio"
+"accountant": "contador"!|0,6476567
+"accomplish": "conclusão"!"irritar"|1,3415841
+"aloud": "em voz alta"!|0,39689443
+"annoy": "irritar"!|0,6476567
+"argue": "discutir"!|0,6476567
+"awake": "acordado"!|0,58640116
+"attic": "sótão"!|0,58640116
+"beet": "beterraba"!|0,5868794
+"bite": "morder"!|0,5875013
+"boot": "bota"!|0,52896273
+"behave": "comportar-se"!|0,6476567
+"behaviour": "comportamento"!|0,5285323
+"cabinet": "gabinete"!|0,5300007
+"car delership": "concessionária de carros"!|0,48103288
+"car dealer": "concessionário de automóveis"!|0,5864321
+"carpet": "carpete"!|0,6476567
+"chalk": "giz"!|0,43221763
+"charge a gun": "carregar uma arma"!|0,58737844
+"charge someone with": "cobrar de alguém"!|0,6476567
+"chart": "gráfico"!"morder"|1,6476567
+"cherry": "cereja"!|0,38797852
+"claim": "reclamar"!|0,4778624
+"complain": "criticar"!|0,582891
+"complaint": "crítica"!|0,582891
+"control freak": "controlador"!|0,43198463
+"coy": "tímida"!|0,5849894
+"crawl": "arrastar"!|0,58640116
+"crowd": "multidão"!|0,6476567
+"crowded": "superlotado"!|0,6476567
+"costume": "fantasia"!|0,47697905
+"deaf": "surdo"!|0,6476567
+"deal": "negócio"!|0,6476567
+"develop": "desenvolver"!|0,5312712
+"engaged": "comprometido"!|0,5299113
+"envy": "inveja"!|0,6476567
+"exchange": "intercâmbio"!|0,53249854
+"exchange student": "estudante de intercâmbio"!|0,6476567
+"eyebrow": "sobrancelha"!|0,47811505
+"fault": "faltar"!|0,5876825
+"faultless": "impecável"!"impecável"|1,337761
+"faulty": "defeituoso"!|0,47748828
+"flick": "filme"!|0,6476567
+"fierce": "feroz"!|0,5864321
+"flat tyre": "pneu furado"!|0,48419264
+"floorboard": "tapete de chão"!|0,6476567
+"floor tiles": "azulejos de chão"!|0,52776104
+"gifted": "dotado"!|0,58640116
+"glad": "alegre"!|0,6476567
+"gluttony": "glutonaria"!"glutonaria"|1,6476567
+"goals": "metas"!|0,3209218
+"goods": "bens"!|0,58737844
+"handcuffs": "algemas"!|0,5841261
+"hangover": "ressaca"!|0,582891
+"hitchhike": "pegar carona"!|0,4766275
+"housemaid": "empregada doméstica"!|0,5346137
+"idle": "parado"!|0,4331297
+"ink": "tinta"!"ressaca"|1,4864012
+"ice lolly": "picolé"!"picolé"|1,4867489
+"invent": "inventar"!|0,32855126
+"itch": "coceira"!|0,5877094
+"I may": "eu posso"!|0,48044252
+"I might": "eu poderia"!|0,6476567
+"jealous": "ciúmes"!|0,530382
+"jail": "cadeia"!|0,5292237
+"kick": "chute"!|0,47645035
+"let off": "soltar"!"em direção a"|1,3395064
+"long term": "longo prazo"!|0,6476567
+"loss": "perda"!|0,47935578
+"lotion": "loção"!|0,432878
+"lust": "luxúria"!|0,6476567
+"loud": "alto"!|0,5292237
+"mat": "tapete de boas-vindas"!"negócio"|1,6476567
+"mint": "hortelã"!|0,5341147
+"misbehave": "comportar-se mal"!|0,6476567
+"mood": "humor"!"humor"|1,6476567
+"moody": "temperamental"!|0,32122728
+"nerves": "nervosismo"!|0,5883406
+"noticeboard": "quadro de avisos"!|0,5276584
+"oblige": "obrigar","mandar"!"obrigado"|0,52776104
+"overeat": "comer de mais"!|0,5876825
+"pick": "escolha"!|0,6476567
+"picky": "exigente"!|0,47883296
+"plug": "plugue"!|0,6476567
+"popsicle": "picolé"!|0,6476567
+"print": "imprimir"!|0,43470457
+"quotation mark": "aspas"!|0,582891
+"quote": "citação"!|0,52968556
+"reckon": "considerar"!|0,5883406
+"refund": "reembolso"!"pneu furado"|1,6476567
+"regret": "arrependimento"!"reembolso"|1,0875201
+"rerun": "repetir"!|0,35777023
+"rob": "roubar"!|0,5333645
+"roof": "telhado"!"áspero"|0,6476567
+"rough": "áspero"!"telhado"|0,58640116
+"rub": "esfregar"!|0,5317016
+"rug": "tapete"!|0,5343637
+"sauce": "molho"!|0,58640116
+"savvy": "experiente"!"discutir","esfregar"|1,4864012
+"Scandinavia": "Escandinávia"!|0,43818218
+"scare": "susto"!|0,58366233
+"sacerecrow": "espantalho"!|0,6476567
+"scary": "assustador"!|0,48044252
+"scrape": "arranhar"!"raspar"|0,58366233
+"scratch": "raspar"!"arranhar"|0,58640116
+"set goals": "definir metas"!|0,58902925
+"shares": "coisas compartilhadas"!|0,58640116
+"shipping": "frete"!|0,39011273
+"shove": "empurrão"!"chuva"|0,47995323
+"sin": "pecado"!|0,6476567
+"slip": "escorregar"!|0,58366233
+"sloth": "preguiça"!|0,58366233
+"smooth": "suave"!|0,48013732
+"socket": "tomada"!|0,58737844
+"souvenir": "lembrancinha"!|0,42905888
+"spare tyre": "pneu sobressalente"!|0,53047884
+"speechless": "sem palavras"!|0,52948564
+"steal": "roubar"!|0,53222454
+"stockbroker": "corretor de bolsa"!|0,5312712
+"steering wheel": "volante"!|0,6476567
+"strengthen": "fortalecer"!|0,6476567
+"strain": "variedade"!"giz"|1,3364904
+"sunrise": "nascer do sol"!"pôr do sol"|0,4369469
+"sunset": "pôr do sol"!"nascer do sol"|0,4837144
+"sure": "claro"!|0,6476567
+"sweep": "varrer"!|0,582891
+"sweets": "doces"!|0,5285323
+"thief": "ladrão"!|0,5883406
+"tiles": "azulejos"!|0,390197
+"tend to": "tendem a"!|0,5303973
+"take a ride": "fazer um passeio"!|0,58640116
+"towards": "em direção a"!|0,5285323
+"trunk": "porta-malas"!|0,58640116
+"tyre": "pneu"!|0,6476567
+"unless": "a menos que"!|1,4876826
+"unsure": "inseguro"!|0,47849235
+"vacant": "vaga"!|0,5324244
+"vent": "desabafar"!|0,5297019
+"victim": "vítima"!|0,58543015
+"vanity": "vaidade"!"vaga"|1,6476567
+"weed": "erva"!"temperamental"|1,4864012
+"weeding": "capinar"!"molho"|1,3424244
+"weigh": "pesar"!|0,2689475
+"wisdom": "sabedoria"!"coceira"|1,6476567
+"wise": "sábio"!"suave","tinta"|2,6476564
+"witch": "bruxa"!|0,43180755
+"wrath": "fúria"!|0,6476567
+"wreck": "naufrágio"!"gráfico"|0,4319943
