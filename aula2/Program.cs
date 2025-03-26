@@ -2,7 +2,7 @@
 
 var cotas = CotaParlamentar.LerCotasParlamentares("cota_parlamentar.csv");
 List<string> list = new List<string> {"ana","abelha","bolo","bola"};
-
+//
 // 1) Total gasto por partido
 // foreach (var x in cotas.GroupBy(c => c.Partido).Select(g => new {partido = g.Key, total = g.Sum(c => c.ValorLiquido)}).ToArray()){
 //     Console.WriteLine($"{x.partido}: {x.total}");
