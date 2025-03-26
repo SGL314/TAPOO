@@ -73,18 +73,14 @@ namespace MeuProjetoAvalonia
 			output.Text = entrada.ToString()+typeConversion.Split(" > ")[0]+" > "+resultado.ToString()+typeConversion.Split(">")[1];
     	}
 
-		private void allInvisible()
-    	{
-			
+		private void allInvisible(){			
 			Temperatura.IsVisible = false;
 			Massa.IsVisible = false;
 			Comprimento.IsVisible = false;
 			Volume.IsVisible = false;
-			
     	}
 
-		private void drop_changed(object sender, SelectionChangedEventArgs e)
-		{
+		private void drop_changed(object sender, SelectionChangedEventArgs e){
 			var comboBox = sender as ComboBox;
 			if (comboBox.SelectedItem is ComboBoxItem item)
 			{
