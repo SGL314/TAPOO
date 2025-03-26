@@ -1,30 +1,61 @@
 <Window xmlns="https://github.com/avaloniaui"
     	xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
     	x:Class="MeuProjetoAvalonia.MainWindow"
-    	Title="Primeiro Projeto com Avalonia UI" Width="400" Height="300">
+    	Title="Conversores" Width="400" Height="400">
   <StackPanel Margin="10">
 	<!-- Exibindo um texto -->
-	<TextBlock Text="Olá, Avalonia UI!"
+	<TextBlock Text="Conversor de Medidas"
            	FontSize="24"
            	HorizontalAlignment="Center"
            	Margin="0 0 0 10"/>
    
 	<!-- Caixa de texto para entrada de dados -->
-	<TextBox x:Name="txtInput"
-         	Watermark="Digite seu nome..."
+	<TextBox x:Name="input"
+         	Watermark="Digite o valor de entrada ..."
          	Margin="0 0 0 10"/>
-   
-	<!-- Botão com evento de clique -->
-	<Button Content="Clique Aqui"
+
+
+	<TextBlock x:Name="output"
+			Text="Resultado"
+           	FontSize="24"
+           	HorizontalAlignment="Center"
+           	Margin="0 0 0 10"/>
+
+	<Button Content="Converter"
         	HorizontalAlignment="Center"
-        	Click="BtnClique_Click"/>
-   
-	<!-- Exemplo de controle ListBox para exibir itens -->
-	<ListBox x:Name="listaItens"
-         	Margin="0 10 0 0">
-  	<ListBoxItem Content="Item 1" />
-  	<ListBoxItem Content="Item 2" />
-  	<ListBoxItem Content="Item 3" />
+        	Click="converter"/>
+
+	<ComboBox x:Name="drop" Width="200" Margin="0 10 0 0" SelectionChanged="drop_changed">
+    	<ComboBoxItem Content="Temperatura"/>
+		<ComboBoxItem Content="Comprimento"/>
+		<ComboBoxItem Content="Massa"/>
+		<ComboBoxItem Content="Volume"/>
+	</ComboBox>
+
+
+	<ListBox x:Name="Temperatura" Margin="0 10 0 0" SelectionChanged="temp_changed">
+		<ListBoxItem Content="°C > °F" />
+		<ListBoxItem Content="°C > °K" />
+		<ListBoxItem Content="°F > °C" />
+		<ListBoxItem Content="°F > °K" />
+	</ListBox>
+	<ListBox x:Name="Comprimento" Margin="0 10 0 0" SelectionChanged="comp_changed">
+		<ListBoxItem Content="m > ft" />
+		<ListBoxItem Content="ft > m" />
+		<ListBoxItem Content="km > mi" />
+		<ListBoxItem Content="mi > km" />
+	</ListBox>
+	<ListBox x:Name="Massa" Margin="0 10 0 0" SelectionChanged="mass_changed">
+		<ListBoxItem Content="kg > lb" />
+		<ListBoxItem Content="lb > kg" />
+		<ListBoxItem Content="g > oz" />
+		<ListBoxItem Content="oz > g" />
+	</ListBox>
+	<ListBox x:Name="Volume" Margin="0 10 0 0" SelectionChanged="volu_changed">
+		<ListBoxItem Content="L > gal" />
+		<ListBoxItem Content="gal > L" />
+		<ListBoxItem Content="ml > fl oz" />
+		<ListBoxItem Content="fl oz > ml" />
 	</ListBox>
   </StackPanel>
 </Window>
