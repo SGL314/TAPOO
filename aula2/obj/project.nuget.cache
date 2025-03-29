@@ -1,10 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "vyuaGHUEBzc=",
+  "dgSpecHash": "XbYPmnE1C8M=",
   "success": true,
-  "projectFilePath": "/home/a2023951482/Documentos/TAPOO/aula2/ExercicioLINQ.csproj",
-  "expectedPackageFiles": [
-    "/home/a2023951482/.nuget/packages/consoledump/0.7.0/consoledump.0.7.0.nupkg.sha512"
-  ],
+  "projectFilePath": "C:\\Users\\samug\\OneDrive\\Documentos\\Scripts\\ScriptsCs\\TAPOO\\aula2\\aula2.csproj",
+  "expectedPackageFiles": [],
   "logs": []
 }

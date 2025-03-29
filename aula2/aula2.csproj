@@ -7,8 +7,4 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
-  <ItemGroup>
-    <PackageReference Include="ConsoleDump" Version="0.7.0" />
-  </ItemGroup>
-
 </Project>

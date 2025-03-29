@@ -1,26 +1,32 @@
 {
   "format": 1,
   "restore": {
-    "/home/a2023951482/Documentos/TAPOO/aula2/ExercicioLINQ.csproj": {}
+    "C:\\Users\\samug\\OneDrive\\Documentos\\Scripts\\ScriptsCs\\TAPOO\\aula2\\ExercicioLINQ.csproj": {}
   },
   "projects": {
-    "/home/a2023951482/Documentos/TAPOO/aula2/ExercicioLINQ.csproj": {
+    "C:\\Users\\samug\\OneDrive\\Documentos\\Scripts\\ScriptsCs\\TAPOO\\aula2\\ExercicioLINQ.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/a2023951482/Documentos/TAPOO/aula2/ExercicioLINQ.csproj",
+        "projectUniqueName": "C:\\Users\\samug\\OneDrive\\Documentos\\Scripts\\ScriptsCs\\TAPOO\\aula2\\ExercicioLINQ.csproj",
         "projectName": "ExercicioLINQ",
-        "projectPath": "/home/a2023951482/Documentos/TAPOO/aula2/ExercicioLINQ.csproj",
-        "packagesPath": "/home/a2023951482/.nuget/packages/",
-        "outputPath": "/home/a2023951482/Documentos/TAPOO/aula2/obj/",
+        "projectPath": "C:\\Users\\samug\\OneDrive\\Documentos\\Scripts\\ScriptsCs\\TAPOO\\aula2\\ExercicioLINQ.csproj",
+        "packagesPath": "C:\\Users\\samug\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\samug\\OneDrive\\Documentos\\Scripts\\ScriptsCs\\TAPOO\\aula2\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "/home/a2023951482/.nuget/NuGet/NuGet.Config"
+          "C:\\NuGet.Config",
+          "C:\\Users\\samug\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
-          "https://api.nuget.org/v3/index.json": {}
+          "https://pkgs.dev.azure.com/devdiv/DevDiv/_packaging/DevDiv_PublicPackages/nuget/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
@@ -42,12 +48,6 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
-          "dependencies": {
-            "ConsoleDump": {
-              "target": "Package",
-              "version": "[0.7.0, )"
-            }
-          },
           "imports": [
             "net461",
             "net462",
@@ -64,7 +64,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/snap/dotnet-sdk/255/sdk/8.0.405/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.406/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
