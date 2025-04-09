@@ -1,0 +1,3 @@
+criar: dotnet new console --name "{NOME}"
+build: dotnet build
+executar: dotnet run
