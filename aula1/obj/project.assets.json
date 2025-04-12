@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\samug\\OneDrive\\Documentos\\Scripts\\TAPOO\\aula1\\aula1.csproj",
+      "projectUniqueName": "C:\\Users\\samug\\OneDrive\\Documentos\\Scripts\\ScriptsCs\\TAPOO\\aula1\\aula1.csproj",
       "projectName": "aula1",
-      "projectPath": "C:\\Users\\samug\\OneDrive\\Documentos\\Scripts\\TAPOO\\aula1\\aula1.csproj",
+      "projectPath": "C:\\Users\\samug\\OneDrive\\Documentos\\Scripts\\ScriptsCs\\TAPOO\\aula1\\aula1.csproj",
       "packagesPath": "C:\\Users\\samug\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\samug\\OneDrive\\Documentos\\Scripts\\TAPOO\\aula1\\obj\\",
+      "outputPath": "C:\\Users\\samug\\OneDrive\\Documentos\\Scripts\\ScriptsCs\\TAPOO\\aula1\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -33,7 +33,7 @@
         "net8.0"
       ],
       "sources": {
-        "https://pkgs.dev.azure.com/devdiv/DevDiv/_packaging/DevDiv_PublicPackages/nuget/v3/index.json": {}
+        "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net8.0": {

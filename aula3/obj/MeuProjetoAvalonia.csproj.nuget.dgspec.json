@@ -1,20 +1,26 @@
 {
   "format": 1,
   "restore": {
-    "/home/a2023951482/Downloads/TAPOO/aula3/MeuProjetoAvalonia.csproj": {}
+    "C:\\Users\\samug\\OneDrive\\Documentos\\Scripts\\ScriptsCs\\TAPOO\\aula3\\MeuProjetoAvalonia.csproj": {}
   },
   "projects": {
-    "/home/a2023951482/Downloads/TAPOO/aula3/MeuProjetoAvalonia.csproj": {
+    "C:\\Users\\samug\\OneDrive\\Documentos\\Scripts\\ScriptsCs\\TAPOO\\aula3\\MeuProjetoAvalonia.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/a2023951482/Downloads/TAPOO/aula3/MeuProjetoAvalonia.csproj",
+        "projectUniqueName": "C:\\Users\\samug\\OneDrive\\Documentos\\Scripts\\ScriptsCs\\TAPOO\\aula3\\MeuProjetoAvalonia.csproj",
         "projectName": "MeuProjetoAvalonia",
-        "projectPath": "/home/a2023951482/Downloads/TAPOO/aula3/MeuProjetoAvalonia.csproj",
-        "packagesPath": "/home/a2023951482/.nuget/packages/",
-        "outputPath": "/home/a2023951482/Downloads/TAPOO/aula3/obj/",
+        "projectPath": "C:\\Users\\samug\\OneDrive\\Documentos\\Scripts\\ScriptsCs\\TAPOO\\aula3\\MeuProjetoAvalonia.csproj",
+        "packagesPath": "C:\\Users\\samug\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\samug\\OneDrive\\Documentos\\Scripts\\ScriptsCs\\TAPOO\\aula3\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "/home/a2023951482/.nuget/NuGet/NuGet.Config"
+          "C:\\NuGet.Config",
+          "C:\\Users\\samug\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -80,7 +86,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/snap/dotnet-sdk/256/sdk/8.0.407/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.406/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
