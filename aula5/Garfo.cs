@@ -9,7 +9,5 @@ namespace Fil{
             this.use = false;
             this.lista = new List<Filosofo>();
         }
-
-
     }
 }
