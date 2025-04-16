@@ -8,19 +8,26 @@
     "net8.0": []
   },
   "packageFolders": {
-    "/home/a2023951482/.nuget/packages/": {}
+    "C:\\Users\\samug\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/a2023951482/Documentos/TAPOO/aula5/aula5.csproj",
+      "projectUniqueName": "C:\\Users\\samug\\OneDrive\\Documentos\\Scripts\\ScriptsCs\\TAPOO\\aula5\\aula5.csproj",
       "projectName": "aula5",
-      "projectPath": "/home/a2023951482/Documentos/TAPOO/aula5/aula5.csproj",
-      "packagesPath": "/home/a2023951482/.nuget/packages/",
-      "outputPath": "/home/a2023951482/Documentos/TAPOO/aula5/obj/",
+      "projectPath": "C:\\Users\\samug\\OneDrive\\Documentos\\Scripts\\ScriptsCs\\TAPOO\\aula5\\aula5.csproj",
+      "packagesPath": "C:\\Users\\samug\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\samug\\OneDrive\\Documentos\\Scripts\\ScriptsCs\\TAPOO\\aula5\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "/home/a2023951482/.nuget/NuGet/NuGet.Config"
+        "C:\\NuGet.Config",
+        "C:\\Users\\samug\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
@@ -64,7 +71,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/snap/dotnet-sdk/256/sdk/8.0.407/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.406/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

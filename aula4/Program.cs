@@ -43,12 +43,9 @@ void chef(){
                             WriteLine($"[Chef {ids[Thread.CurrentThread.ManagedThreadId]}] Inicio da Preparação do Pedido {pedido.id}");
                             Console.ResetColor();
                         }
-
-                        porcoes["rice"]--;
-                        porcoes["meat"]--;
+                        porcoes["rice"]--;porcoes["meat"]--;
                     }
-                    Thread.Sleep(1000);
-                    Thread.Sleep(1000);
+                    Thread.Sleep(2000);
                     lock (lockConsole){
                         Console.ForegroundColor = ConsoleColor.Red;
                         WriteLine($"[Chef {ids[Thread.CurrentThread.ManagedThreadId]}] Fim da Preparação do Pedido {pedido.id}");
@@ -168,7 +165,6 @@ void garcom(){
 
         lock (lockPedidos) {
             pedidos.Add(new Pedido(current_id,nome));
-        
             Pedido pedido = new Pedido(0,"nenhum");
             foreach (Pedido ped in pedidos){
                 if (ped.id == current_id){
@@ -183,15 +179,11 @@ void garcom(){
                 }
             }
             lock (lockConsole){
-                
                 Console.ForegroundColor = ConsoleColor.Blue;
                 WriteLine($"[Garçom {ids[Thread.CurrentThread.ManagedThreadId]}] - Envio de Pedido {current_id}: Prato {pedido.nome} [{lista}]");
                 Console.ResetColor();
             }
-        }      
-
-        
-
+        }
         Thread.Sleep(time*1000);
     }
 };
