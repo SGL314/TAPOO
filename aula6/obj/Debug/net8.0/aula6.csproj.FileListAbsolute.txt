@@ -1,0 +1,15 @@
+/home/a2023951482/Documentos/TAPOO/aula6/obj/Debug/net8.0/aula6.GeneratedMSBuildEditorConfig.editorconfig
+/home/a2023951482/Documentos/TAPOO/aula6/obj/Debug/net8.0/aula6.AssemblyInfoInputs.cache
+/home/a2023951482/Documentos/TAPOO/aula6/obj/Debug/net8.0/aula6.AssemblyInfo.cs
+/home/a2023951482/Documentos/TAPOO/aula6/obj/Debug/net8.0/aula6.csproj.CoreCompileInputs.cache
+/home/a2023951482/Documentos/TAPOO/aula6/obj/Debug/net8.0/aula6.sourcelink.json
+/home/a2023951482/Documentos/TAPOO/aula6/bin/Debug/net8.0/aula6
+/home/a2023951482/Documentos/TAPOO/aula6/bin/Debug/net8.0/aula6.deps.json
+/home/a2023951482/Documentos/TAPOO/aula6/bin/Debug/net8.0/aula6.runtimeconfig.json
+/home/a2023951482/Documentos/TAPOO/aula6/bin/Debug/net8.0/aula6.dll
+/home/a2023951482/Documentos/TAPOO/aula6/bin/Debug/net8.0/aula6.pdb
+/home/a2023951482/Documentos/TAPOO/aula6/obj/Debug/net8.0/aula6.dll
+/home/a2023951482/Documentos/TAPOO/aula6/obj/Debug/net8.0/refint/aula6.dll
+/home/a2023951482/Documentos/TAPOO/aula6/obj/Debug/net8.0/aula6.pdb
+/home/a2023951482/Documentos/TAPOO/aula6/obj/Debug/net8.0/aula6.genruntimeconfig.cache
+/home/a2023951482/Documentos/TAPOO/aula6/obj/Debug/net8.0/ref/aula6.dll
