@@ -1,0 +1,14 @@
+C:\Users\Lucas Alves\OneDrive\UFMG\Disciplinas\2025\TAPOO\Rede\cliente\bin\Debug\net9.0\cliente.exe
+C:\Users\Lucas Alves\OneDrive\UFMG\Disciplinas\2025\TAPOO\Rede\cliente\bin\Debug\net9.0\cliente.deps.json
+C:\Users\Lucas Alves\OneDrive\UFMG\Disciplinas\2025\TAPOO\Rede\cliente\bin\Debug\net9.0\cliente.runtimeconfig.json
+C:\Users\Lucas Alves\OneDrive\UFMG\Disciplinas\2025\TAPOO\Rede\cliente\bin\Debug\net9.0\cliente.dll
+C:\Users\Lucas Alves\OneDrive\UFMG\Disciplinas\2025\TAPOO\Rede\cliente\bin\Debug\net9.0\cliente.pdb
+C:\Users\Lucas Alves\OneDrive\UFMG\Disciplinas\2025\TAPOO\Rede\cliente\obj\Debug\net9.0\cliente.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Lucas Alves\OneDrive\UFMG\Disciplinas\2025\TAPOO\Rede\cliente\obj\Debug\net9.0\cliente.AssemblyInfoInputs.cache
+C:\Users\Lucas Alves\OneDrive\UFMG\Disciplinas\2025\TAPOO\Rede\cliente\obj\Debug\net9.0\cliente.AssemblyInfo.cs
+C:\Users\Lucas Alves\OneDrive\UFMG\Disciplinas\2025\TAPOO\Rede\cliente\obj\Debug\net9.0\cliente.csproj.CoreCompileInputs.cache
+C:\Users\Lucas Alves\OneDrive\UFMG\Disciplinas\2025\TAPOO\Rede\cliente\obj\Debug\net9.0\cliente.dll
+C:\Users\Lucas Alves\OneDrive\UFMG\Disciplinas\2025\TAPOO\Rede\cliente\obj\Debug\net9.0\refint\cliente.dll
+C:\Users\Lucas Alves\OneDrive\UFMG\Disciplinas\2025\TAPOO\Rede\cliente\obj\Debug\net9.0\cliente.pdb
+C:\Users\Lucas Alves\OneDrive\UFMG\Disciplinas\2025\TAPOO\Rede\cliente\obj\Debug\net9.0\cliente.genruntimeconfig.cache
+C:\Users\Lucas Alves\OneDrive\UFMG\Disciplinas\2025\TAPOO\Rede\cliente\obj\Debug\net9.0\ref\cliente.dll

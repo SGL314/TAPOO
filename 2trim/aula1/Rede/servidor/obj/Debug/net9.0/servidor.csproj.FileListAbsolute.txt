@@ -1,0 +1,14 @@
+C:\Users\Lucas Alves\OneDrive\UFMG\Disciplinas\2025\TAPOO\Rede\servidor\bin\Debug\net9.0\servidor.exe
+C:\Users\Lucas Alves\OneDrive\UFMG\Disciplinas\2025\TAPOO\Rede\servidor\bin\Debug\net9.0\servidor.deps.json
+C:\Users\Lucas Alves\OneDrive\UFMG\Disciplinas\2025\TAPOO\Rede\servidor\bin\Debug\net9.0\servidor.runtimeconfig.json
+C:\Users\Lucas Alves\OneDrive\UFMG\Disciplinas\2025\TAPOO\Rede\servidor\bin\Debug\net9.0\servidor.dll
+C:\Users\Lucas Alves\OneDrive\UFMG\Disciplinas\2025\TAPOO\Rede\servidor\bin\Debug\net9.0\servidor.pdb
+C:\Users\Lucas Alves\OneDrive\UFMG\Disciplinas\2025\TAPOO\Rede\servidor\obj\Debug\net9.0\servidor.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Lucas Alves\OneDrive\UFMG\Disciplinas\2025\TAPOO\Rede\servidor\obj\Debug\net9.0\servidor.AssemblyInfoInputs.cache
+C:\Users\Lucas Alves\OneDrive\UFMG\Disciplinas\2025\TAPOO\Rede\servidor\obj\Debug\net9.0\servidor.AssemblyInfo.cs
+C:\Users\Lucas Alves\OneDrive\UFMG\Disciplinas\2025\TAPOO\Rede\servidor\obj\Debug\net9.0\servidor.csproj.CoreCompileInputs.cache
+C:\Users\Lucas Alves\OneDrive\UFMG\Disciplinas\2025\TAPOO\Rede\servidor\obj\Debug\net9.0\servidor.dll
+C:\Users\Lucas Alves\OneDrive\UFMG\Disciplinas\2025\TAPOO\Rede\servidor\obj\Debug\net9.0\refint\servidor.dll
+C:\Users\Lucas Alves\OneDrive\UFMG\Disciplinas\2025\TAPOO\Rede\servidor\obj\Debug\net9.0\servidor.pdb
+C:\Users\Lucas Alves\OneDrive\UFMG\Disciplinas\2025\TAPOO\Rede\servidor\obj\Debug\net9.0\servidor.genruntimeconfig.cache
+C:\Users\Lucas Alves\OneDrive\UFMG\Disciplinas\2025\TAPOO\Rede\servidor\obj\Debug\net9.0\ref\servidor.dll
