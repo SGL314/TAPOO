@@ -74,14 +74,11 @@ async Task PlaceShipsRandomly(int n)
 async Task process(string msg){
     int r = -1, c = 0;
     bool marcado = false;
-    for (int i = 0; i < 10; i++)
-    {
+    for (int i = 0; i < 10; i++){
         c = 0;
         r++;
-        for (int j = 0; j < 10; j++)
-        {
-            if (msg == $"{(char)('A' + i)}{j}" || msg == $"{(char)('a' + i)}{j}")
-            {
+        for (int j = 0; j < 10; j++){
+            if (msg == $"{(char)('A' + i)}{j}" || msg == $"{(char)('a' + i)}{j}"){
                 i = 11;
                 marcado = true;
                 break;
@@ -89,13 +86,10 @@ async Task process(string msg){
             c++;
         }
     }
-    if (!marcado)
-    {
+    if (!marcado){
         Console.WriteLine($"Código '{msg}' não identificado");
         return;
-    }
-    else
-    {
+    }else{
         turno = 1;
         await EnviaMensagem(cliente,"turno");
     }
@@ -163,6 +157,12 @@ async Task Enviar(TcpClient cliente)
     }
 }
 
+async Task EnviaMensagem(TcpClient cliente, string mensagem)
+{
+    var dados = Encoding.UTF8.GetBytes(mensagem);
+    await stream.WriteAsync(dados, 0, dados.Length);
+}
+
 async Task Receber(TcpClient cliente)
 {
     while(continuar)
@@ -190,13 +190,6 @@ async Task Receber(TcpClient cliente)
         }
     }
 }
-
-async Task EnviaMensagem(TcpClient cliente, string mensagem)
-{
-    var dados = Encoding.UTF8.GetBytes(mensagem);
-    await stream.WriteAsync(dados, 0, dados.Length);
-}
-
 async Task<string> RecebeMensagem(TcpClient cliente)
 {
     var buffer = new byte[1024];

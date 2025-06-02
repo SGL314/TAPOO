@@ -7,12 +7,10 @@ using System.Text;
 char[,] grid = new char[10,10];
 const string host = "127.0.0.1";
 const int porta = 9000;
-//
 
 using var cliente = new TcpClient();
 await cliente.ConnectAsync(host, porta);
 using var stream = cliente.GetStream();
-
 
 bool continuar = true;
 
@@ -25,6 +23,7 @@ var t2 = Enviar();
 
 await Task.WhenAll(t1, t2);
 Console.WriteLine("Fim");
+
 // game
 
 async Task Print(bool showShips)
