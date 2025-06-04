@@ -1,0 +1,15 @@
+/home/a2023951482/Documentos/TAPOO/2trim/aula2/Cliente/obj/Debug/net8.0/Cliente.GeneratedMSBuildEditorConfig.editorconfig
+/home/a2023951482/Documentos/TAPOO/2trim/aula2/Cliente/obj/Debug/net8.0/Cliente.AssemblyInfoInputs.cache
+/home/a2023951482/Documentos/TAPOO/2trim/aula2/Cliente/obj/Debug/net8.0/Cliente.AssemblyInfo.cs
+/home/a2023951482/Documentos/TAPOO/2trim/aula2/Cliente/obj/Debug/net8.0/Cliente.csproj.CoreCompileInputs.cache
+/home/a2023951482/Documentos/TAPOO/2trim/aula2/Cliente/obj/Debug/net8.0/Cliente.sourcelink.json
+/home/a2023951482/Documentos/TAPOO/2trim/aula2/Cliente/bin/Debug/net8.0/Cliente
+/home/a2023951482/Documentos/TAPOO/2trim/aula2/Cliente/bin/Debug/net8.0/Cliente.deps.json
+/home/a2023951482/Documentos/TAPOO/2trim/aula2/Cliente/bin/Debug/net8.0/Cliente.runtimeconfig.json
+/home/a2023951482/Documentos/TAPOO/2trim/aula2/Cliente/bin/Debug/net8.0/Cliente.dll
+/home/a2023951482/Documentos/TAPOO/2trim/aula2/Cliente/bin/Debug/net8.0/Cliente.pdb
+/home/a2023951482/Documentos/TAPOO/2trim/aula2/Cliente/obj/Debug/net8.0/Cliente.dll
+/home/a2023951482/Documentos/TAPOO/2trim/aula2/Cliente/obj/Debug/net8.0/refint/Cliente.dll
+/home/a2023951482/Documentos/TAPOO/2trim/aula2/Cliente/obj/Debug/net8.0/Cliente.pdb
+/home/a2023951482/Documentos/TAPOO/2trim/aula2/Cliente/obj/Debug/net8.0/Cliente.genruntimeconfig.cache
+/home/a2023951482/Documentos/TAPOO/2trim/aula2/Cliente/obj/Debug/net8.0/ref/Cliente.dll

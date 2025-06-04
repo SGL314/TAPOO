@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/a2023951482/Documentos/TAPOO/2trim/aula2/aula2.csproj",
-      "projectName": "aula2",
-      "projectPath": "/home/a2023951482/Documentos/TAPOO/2trim/aula2/aula2.csproj",
+      "projectUniqueName": "/home/a2023951482/Documentos/TAPOO/2trim/aula2/Cliente/Cliente.csproj",
+      "projectName": "Cliente",
+      "projectPath": "/home/a2023951482/Documentos/TAPOO/2trim/aula2/Cliente/Cliente.csproj",
       "packagesPath": "/home/a2023951482/.nuget/packages/",
-      "outputPath": "/home/a2023951482/Documentos/TAPOO/2trim/aula2/obj/",
+      "outputPath": "/home/a2023951482/Documentos/TAPOO/2trim/aula2/Cliente/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/a2023951482/.nuget/NuGet/NuGet.Config"
