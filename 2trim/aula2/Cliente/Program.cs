@@ -34,6 +34,7 @@ namespace Main
                 Console.Clear();
                 Console.Write("Escolha o tipo de temperatura a ser recebida sendo:\nK: Kelvin\nC: Celsius\nF: Fahrenheit\n:> ");
                 string tipo = Console.ReadLine();
+                
                 switch (tipo)
                 {
                     case "K":
@@ -72,6 +73,7 @@ namespace Main
                         Thread.Sleep(2000);
                         break;
                 }
+
                 if (sair)
                 {
                     Console.Clear();
