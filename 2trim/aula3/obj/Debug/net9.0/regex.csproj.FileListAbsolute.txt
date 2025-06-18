@@ -1,0 +1,14 @@
+C:\Users\Lucas Alves\OneDrive\UFMG\Disciplinas\2025\TAPOO\Regex\regex\bin\Debug\net9.0\regex.exe
+C:\Users\Lucas Alves\OneDrive\UFMG\Disciplinas\2025\TAPOO\Regex\regex\bin\Debug\net9.0\regex.deps.json
+C:\Users\Lucas Alves\OneDrive\UFMG\Disciplinas\2025\TAPOO\Regex\regex\bin\Debug\net9.0\regex.runtimeconfig.json
+C:\Users\Lucas Alves\OneDrive\UFMG\Disciplinas\2025\TAPOO\Regex\regex\bin\Debug\net9.0\regex.dll
+C:\Users\Lucas Alves\OneDrive\UFMG\Disciplinas\2025\TAPOO\Regex\regex\bin\Debug\net9.0\regex.pdb
+C:\Users\Lucas Alves\OneDrive\UFMG\Disciplinas\2025\TAPOO\Regex\regex\obj\Debug\net9.0\regex.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Lucas Alves\OneDrive\UFMG\Disciplinas\2025\TAPOO\Regex\regex\obj\Debug\net9.0\regex.AssemblyInfoInputs.cache
+C:\Users\Lucas Alves\OneDrive\UFMG\Disciplinas\2025\TAPOO\Regex\regex\obj\Debug\net9.0\regex.AssemblyInfo.cs
+C:\Users\Lucas Alves\OneDrive\UFMG\Disciplinas\2025\TAPOO\Regex\regex\obj\Debug\net9.0\regex.csproj.CoreCompileInputs.cache
+C:\Users\Lucas Alves\OneDrive\UFMG\Disciplinas\2025\TAPOO\Regex\regex\obj\Debug\net9.0\regex.dll
+C:\Users\Lucas Alves\OneDrive\UFMG\Disciplinas\2025\TAPOO\Regex\regex\obj\Debug\net9.0\refint\regex.dll
+C:\Users\Lucas Alves\OneDrive\UFMG\Disciplinas\2025\TAPOO\Regex\regex\obj\Debug\net9.0\regex.pdb
+C:\Users\Lucas Alves\OneDrive\UFMG\Disciplinas\2025\TAPOO\Regex\regex\obj\Debug\net9.0\regex.genruntimeconfig.cache
+C:\Users\Lucas Alves\OneDrive\UFMG\Disciplinas\2025\TAPOO\Regex\regex\obj\Debug\net9.0\ref\regex.dll

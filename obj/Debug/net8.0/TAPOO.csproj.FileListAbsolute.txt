@@ -1,0 +1,5 @@
+/home/a2023951482/Documentos/TAPOO/obj/Debug/net8.0/TAPOO.GeneratedMSBuildEditorConfig.editorconfig
+/home/a2023951482/Documentos/TAPOO/obj/Debug/net8.0/TAPOO.AssemblyInfoInputs.cache
+/home/a2023951482/Documentos/TAPOO/obj/Debug/net8.0/TAPOO.AssemblyInfo.cs
+/home/a2023951482/Documentos/TAPOO/obj/Debug/net8.0/TAPOO.csproj.CoreCompileInputs.cache
+/home/a2023951482/Documentos/TAPOO/obj/Debug/net8.0/TAPOO.sourcelink.json
