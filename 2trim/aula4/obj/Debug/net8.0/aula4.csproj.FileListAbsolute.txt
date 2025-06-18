@@ -1,0 +1,15 @@
+/home/a2023951482/Documentos/TAPOO/2trim/aula4/obj/Debug/net8.0/aula4.GeneratedMSBuildEditorConfig.editorconfig
+/home/a2023951482/Documentos/TAPOO/2trim/aula4/obj/Debug/net8.0/aula4.AssemblyInfoInputs.cache
+/home/a2023951482/Documentos/TAPOO/2trim/aula4/obj/Debug/net8.0/aula4.AssemblyInfo.cs
+/home/a2023951482/Documentos/TAPOO/2trim/aula4/obj/Debug/net8.0/aula4.csproj.CoreCompileInputs.cache
+/home/a2023951482/Documentos/TAPOO/2trim/aula4/obj/Debug/net8.0/aula4.sourcelink.json
+/home/a2023951482/Documentos/TAPOO/2trim/aula4/bin/Debug/net8.0/aula4
+/home/a2023951482/Documentos/TAPOO/2trim/aula4/bin/Debug/net8.0/aula4.deps.json
+/home/a2023951482/Documentos/TAPOO/2trim/aula4/bin/Debug/net8.0/aula4.runtimeconfig.json
+/home/a2023951482/Documentos/TAPOO/2trim/aula4/bin/Debug/net8.0/aula4.dll
+/home/a2023951482/Documentos/TAPOO/2trim/aula4/bin/Debug/net8.0/aula4.pdb
+/home/a2023951482/Documentos/TAPOO/2trim/aula4/obj/Debug/net8.0/aula4.dll
+/home/a2023951482/Documentos/TAPOO/2trim/aula4/obj/Debug/net8.0/refint/aula4.dll
+/home/a2023951482/Documentos/TAPOO/2trim/aula4/obj/Debug/net8.0/aula4.pdb
+/home/a2023951482/Documentos/TAPOO/2trim/aula4/obj/Debug/net8.0/aula4.genruntimeconfig.cache
+/home/a2023951482/Documentos/TAPOO/2trim/aula4/obj/Debug/net8.0/ref/aula4.dll
