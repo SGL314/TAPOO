@@ -1,12 +1,25 @@
 @"^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[!@#$%^&*()+=_\-{}\[\]:;""'?<>,.]).{7,16}$"
+
 Explicação:
+
 @ identifica que é o regex
+
 " início do regex
+
 ^ início da string
+
 (?=.*[a-z]) verifica se tem pelo menos uma letra minúscula
+
 (?=.*[A-Z]) verifica se tem pelo menos uma letra maiúscula
+
 (?=.*\d) verifica se tem pelo menos um número
-(?=.*[!@#$%^&*()+=_\-{}\[\]:;""'?<>,.]) verifica se tem algum caractere especiais destes da lista: [!@#$%^&*()+=_\-{}\[\]:;""'?<>,.]
+
+(?=.*[!@#$%^&*()+=_\-{}\[\]:;""'?<>,.]) 
+    verifica se tem algum caractere especiais destes da lista: 
+    [!@#$%^&*()+=_\-{}\[\]:;""'?<>,.]
+
 .{7,16} define o tamanho da string com qualquer sequência
+
 $ fim da string
+
 " fim do regex
