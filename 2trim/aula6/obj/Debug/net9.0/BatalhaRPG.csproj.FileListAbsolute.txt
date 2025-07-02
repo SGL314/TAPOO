@@ -1,0 +1,14 @@
+C:\Users\Lucas Alves\OneDrive\UFMG\Disciplinas\2025\TAPOO\BatalhaRPG\BatalhaRPG\bin\Debug\net9.0\BatalhaRPG.exe
+C:\Users\Lucas Alves\OneDrive\UFMG\Disciplinas\2025\TAPOO\BatalhaRPG\BatalhaRPG\bin\Debug\net9.0\BatalhaRPG.deps.json
+C:\Users\Lucas Alves\OneDrive\UFMG\Disciplinas\2025\TAPOO\BatalhaRPG\BatalhaRPG\bin\Debug\net9.0\BatalhaRPG.runtimeconfig.json
+C:\Users\Lucas Alves\OneDrive\UFMG\Disciplinas\2025\TAPOO\BatalhaRPG\BatalhaRPG\bin\Debug\net9.0\BatalhaRPG.dll
+C:\Users\Lucas Alves\OneDrive\UFMG\Disciplinas\2025\TAPOO\BatalhaRPG\BatalhaRPG\bin\Debug\net9.0\BatalhaRPG.pdb
+C:\Users\Lucas Alves\OneDrive\UFMG\Disciplinas\2025\TAPOO\BatalhaRPG\BatalhaRPG\obj\Debug\net9.0\BatalhaRPG.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Lucas Alves\OneDrive\UFMG\Disciplinas\2025\TAPOO\BatalhaRPG\BatalhaRPG\obj\Debug\net9.0\BatalhaRPG.AssemblyInfoInputs.cache
+C:\Users\Lucas Alves\OneDrive\UFMG\Disciplinas\2025\TAPOO\BatalhaRPG\BatalhaRPG\obj\Debug\net9.0\BatalhaRPG.AssemblyInfo.cs
+C:\Users\Lucas Alves\OneDrive\UFMG\Disciplinas\2025\TAPOO\BatalhaRPG\BatalhaRPG\obj\Debug\net9.0\BatalhaRPG.csproj.CoreCompileInputs.cache
+C:\Users\Lucas Alves\OneDrive\UFMG\Disciplinas\2025\TAPOO\BatalhaRPG\BatalhaRPG\obj\Debug\net9.0\BatalhaRPG.dll
+C:\Users\Lucas Alves\OneDrive\UFMG\Disciplinas\2025\TAPOO\BatalhaRPG\BatalhaRPG\obj\Debug\net9.0\refint\BatalhaRPG.dll
+C:\Users\Lucas Alves\OneDrive\UFMG\Disciplinas\2025\TAPOO\BatalhaRPG\BatalhaRPG\obj\Debug\net9.0\BatalhaRPG.pdb
+C:\Users\Lucas Alves\OneDrive\UFMG\Disciplinas\2025\TAPOO\BatalhaRPG\BatalhaRPG\obj\Debug\net9.0\BatalhaRPG.genruntimeconfig.cache
+C:\Users\Lucas Alves\OneDrive\UFMG\Disciplinas\2025\TAPOO\BatalhaRPG\BatalhaRPG\obj\Debug\net9.0\ref\BatalhaRPG.dll
