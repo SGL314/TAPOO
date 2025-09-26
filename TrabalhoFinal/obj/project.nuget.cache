@@ -1,15 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "WwlK2TUakoM=",
+  "dgSpecHash": "F6XdPR7YAWa2QOMyGtcJkZdOPKdAo9klY7o0Nq3emhTyGIcH0FAE9E1cMFmqN+Nf+Wn6DxraA8AUTxqBLfmUhA==",
   "success": true,
-  "projectFilePath": "/home/a2023951482/Documentos/TAPOO/TrabalhoFinal/TrabalhoFinal.csproj",
+  "projectFilePath": "/home/labterm/Documents/TAPOO/TrabalhoFinal/TrabalhoFinal.csproj",
   "expectedPackageFiles": [
-    "/home/a2023951482/.nuget/packages/monogame.framework.desktopgl/3.8.4/monogame.framework.desktopgl.3.8.4.nupkg.sha512",
-    "/home/a2023951482/.nuget/packages/monogame.library.openal/1.23.1.10/monogame.library.openal.1.23.1.10.nupkg.sha512",
-    "/home/a2023951482/.nuget/packages/monogame.library.sdl/2.32.2.1/monogame.library.sdl.2.32.2.1.nupkg.sha512",
-    "/home/a2023951482/.nuget/packages/nvorbis/0.10.4/nvorbis.0.10.4.nupkg.sha512",
-    "/home/a2023951482/.nuget/packages/system.memory/4.5.3/system.memory.4.5.3.nupkg.sha512",
-    "/home/a2023951482/.nuget/packages/system.valuetuple/4.5.0/system.valuetuple.4.5.0.nupkg.sha512"
+    "/home/labterm/.nuget/packages/monogame.framework.desktopgl/3.8.4/monogame.framework.desktopgl.3.8.4.nupkg.sha512",
+    "/home/labterm/.nuget/packages/monogame.library.openal/1.23.1.10/monogame.library.openal.1.23.1.10.nupkg.sha512",
+    "/home/labterm/.nuget/packages/monogame.library.sdl/2.32.2.1/monogame.library.sdl.2.32.2.1.nupkg.sha512",
+    "/home/labterm/.nuget/packages/nvorbis/0.10.4/nvorbis.0.10.4.nupkg.sha512",
+    "/home/labterm/.nuget/packages/system.memory/4.5.3/system.memory.4.5.3.nupkg.sha512",
+    "/home/labterm/.nuget/packages/system.valuetuple/4.5.0/system.valuetuple.4.5.0.nupkg.sha512"
   ],
   "logs": []
 }

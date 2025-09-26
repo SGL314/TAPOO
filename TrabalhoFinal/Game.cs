@@ -14,7 +14,7 @@ public class Engine : Game
     private float height { get; }
 
     //
-    private Texture2D[,] textureCubes = new Texture2D[1, 5];
+    private Texture2D[,] textureCubes = new Texture2D[2, 5];
     private Texture2D textureSeta;
     private int cube = 0, face = 0;
     // interactions
@@ -25,8 +25,8 @@ public class Engine : Game
     public Engine()
     {
         _graphics = new GraphicsDeviceManager(this);
-        width = 1280f;
-        height = 720f;
+        width = 1000f;
+        height = 600f;
         _graphics.PreferredBackBufferWidth = (int)width;   // tamXura
         _graphics.PreferredBackBufferHeight = (int)height;   // altura
 
@@ -36,17 +36,30 @@ public class Engine : Game
         IsMouseVisible = true;
 
         //sprites
-        string[] locals = {"data/a.png",
-                         "data/b.png",
-                         "data/c.png",
-                         "data/d.png",
-                         "data/e.png"
-                        };
-        for (int c = 0; c < 5; c++)
+        string[,] locals = {
+            {
+                "data/labterm/saida.jpg",
+                "data/labterm/me.jpg",
+                "data/labterm/miniArmario.jpg",
+                "data/labterm/pcsNormais.jpg",
+                "data/labterm/tetoJunino.jpg"
+            },
+            {
+                "data/labterm/geladeira.jpg",
+                "data/labterm/cameras.jpg",
+                "data/labterm/janPeq.jpg",
+                "data/labterm/superPcs.jpg",
+                "data/labterm/tetoNormal.jpg"
+            }
+        };
+        for (int i = 0; i < 2; i++)
         {
-            using var str = new FileStream(locals[c], FileMode.Open);
-            // textureCubes[0] = new Texture2D[6];
-            textureCubes[0, c] = Texture2D.FromStream(GraphicsDevice, str);
+            for (int j = 0; j < 5; j++)
+            {
+                using var str = new FileStream(locals[i,j], FileMode.Open);
+                // textureCubes[0] = new Texture2D[6];
+                textureCubes[i,j] = Texture2D.FromStream(GraphicsDevice, str);
+            }
         }
         textureSeta = Texture2D.FromStream(GraphicsDevice, new FileStream("data/seta.png", FileMode.Open));
     }
@@ -104,14 +117,14 @@ public class Engine : Game
         _spriteBatch.Begin();
         //
         // 400,295
-        int tamX = 400;
-        int tamY = 295;
-        int padX = 5, padY = 5;
-        float zoom = 1f;
+        int tamX = 4080/10;
+        int tamY = 3060/10;
+        int padX = 0, padY = 0; // equal and 5
+        float zoom = 0.1f;
 
         // TODO: Add your drawing code here
         var flip = SpriteEffects.None;  // flipDrawSprite ? SpriteEffects.FlipHorizontally : SpriteEffects.None;
-        _spriteBatch.Draw(textureCubes[cube, face], new Vector2(width / 2 - tamX / 2, height / 2 - tamY / 2), new Rectangle(padX, padY, tamX, tamY), Color.White, 0f, Vector2.Zero, zoom, flip, 0); // 192 x 96
+        _spriteBatch.Draw(textureCubes[cube, face], new Vector2(width / 2 - tamX / 2, height / 2 - tamY / 2), null, Color.White, 0f, Vector2.Zero, zoom, flip, 0); // 192 x 96
 
         setas(tamX, tamY, padX, padY, zoom);
         // flip = SpriteEffects.FlipHorizontally;
@@ -124,11 +137,14 @@ public class Engine : Game
     private void setas(int tamX, int tamY, int padX, int padY, float zoom)
     {
         // direita
+        padX = 5;
+        padY = 5;
         int tamY2 = 20;
         int tamX2 = 17;
         int marginX = 5;
         var rotation = 0f;
         var flip = SpriteEffects.None;
+        zoom = 1f;
 
         var position = new Vector2(width / 2 + tamX / 2 - tamX2 - marginX, height / 2 - tamY2 / 2);
         var cut = new Rectangle(padX, padY, tamX2, tamY2);
@@ -149,6 +165,19 @@ public class Engine : Game
             (int)position.Y,
             cut.Width,
             cut.Height
+        );
+        _spriteBatch.Draw(textureSeta, position, cut, Color.White, rotation, Vector2.Zero, zoom, flip, 0);
+
+        // cima
+        flip = SpriteEffects.None;
+        rotation = -MathHelper.PiOver2; 
+        position = new Vector2(width / 2 - tamY2 / 2, height / 2 -tamY/2 +tamX2 + marginX);
+        cut = new Rectangle(padX, padY, tamX2, tamY2);
+        areaSetaCima = new Rectangle(
+            (int)position.X,
+            (int)position.Y,
+            cut.Height,
+            cut.Width
         );
         _spriteBatch.Draw(textureSeta, position, cut, Color.White, rotation, Vector2.Zero, zoom, flip, 0);
         
